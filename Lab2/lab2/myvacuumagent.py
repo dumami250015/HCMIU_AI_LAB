@@ -331,7 +331,7 @@ class MyVacuumAgent(Agent):
         if not self.route:
             # explore unknown first
             self.bfs(return_home=False)
-            #self.dfs(return_home=False)
+            # self.dfs(return_home=False)
             # if no unknown → return home
             if not self.route:
                 if (self.state.pos_x, self.state.pos_y) == self.home_pos:
