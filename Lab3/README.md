@@ -343,7 +343,7 @@ The search agent is programmed to handle both algorithms inside `myvacuumagent.p
 1. Open `lab3/myvacuumagent.py` in your code editor.
 2. Under the `__init__` constructor (around Line 114), update the algorithm setting:
    ```python
-   self.current_algorithm = "Greedy"  # Change from "A*" to "Greedy"
+   self.current_algorithm = "Greedy"  # Change from "A*" to "Greedy Best-First Search"
    ```
 3. Save the file and restart `python run_lab3.py` to experience the Greedy Best-First Search execution.
 
