@@ -20,7 +20,9 @@ The agent's performance is measured by a score with the following rules:
 
 Here is a snapshot of the agent running in the environment, with the visual grid on the left and the action log on the right:
 
+<img width="1112" height="719" alt="image" src="https://github.com/user-attachments/assets/abcacb2f-b749-44ba-928f-a6fb18cb24b7" />
 
+<img width="1112" height="722" alt="image" src="https://github.com/user-attachments/assets/7c992fef-575f-4a68-bf2c-05fc032c0957" />
 
 ---
 
