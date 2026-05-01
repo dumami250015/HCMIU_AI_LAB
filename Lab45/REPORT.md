@@ -513,6 +513,23 @@ The Magic Tour dataset's **high variance** is notable: the median time is only 1
 
 ---
 
+## 8. Personal Reflection
+
+This assignment was both challenging and rewarding. I particularly enjoyed modeling Sudoku as a formal CSP and seeing how classical AI techniques — AC-3 and Backtracking Search — come together to solve puzzles that would be tedious to tackle by hand. Building the interactive GUI with real-time visualization was one of the most engaging parts, as it allowed me to observe the algorithms in action: watching the solver prune domains, make guesses, and backtrack in real time gave me a much deeper intuition for how constraint propagation and search interact. The most difficult aspect was implementing the Forward Checking with recursive propagation correctly — ensuring that domain changes are properly undone on backtrack required careful handling of deep copies and state restoration. Debugging subtle off-by-one errors in domain manipulation was also time-consuming. Overall, this assignment strengthened my understanding of CSPs, heuristic search, and the importance of preprocessing (AC-3) in reducing computational effort.
+
+## 9. Time Estimation
+
+| Phase | Estimated Time |
+|-------|:--------------:|
+| Understanding the CSP formulation and algorithms | 2 hours |
+| Implementing core solver (AC-3, Backtracking, MRV, Forward Checking) | 5 hours |
+| Building the interactive GUI with Pygame | 6 hours |
+| Testing, debugging, and benchmarking | 3 hours |
+| Writing the report and analysis | 4 hours |
+| **Total** | **~20 hours** |
+
+---
+
 ## Appendix A: Output Files
 
 - **EulerSolutions.txt** — 50 solved puzzles, each as an 81-character string
